@@ -78,8 +78,8 @@ div#main {
 	.club:link, .club:visited {
 	}
 	.club:hover {
-		color: rgb(200, 150, 100);
-		opacity: 0.5;
+		color: rgb(255, 255, 255);
+		opacity: 0.64;
 	}
 	
 	.gaku {
