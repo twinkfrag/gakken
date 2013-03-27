@@ -1,0 +1,112 @@
+/*
+  学術研究部会ホームページ Style Sheet
+  作成：竹内景太郎
+*/
+
+html {
+  width:100%;
+  height:100%;
+}
+
+/* ウェブサイト全体 */
+body {
+  margin:0px;
+}
+
+/* 一番上のバー */
+header#bar {
+  margin-left:auto;
+  margin-right:auto;
+  background-color:rgba(0,0,0,0.8);
+  height:50px;
+  width:900px;
+  color:#ffffff;
+  font-size:50px;
+  font-family: 'Economica', sans-serif;
+}
+
+/* ヘッダー部分 */
+header#header {
+  margin-left:auto;
+  margin-right:auto;
+  height:300px;
+  width:900px;
+  background-size:cover;
+  
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+/* 隙間埋め */
+div#space {
+  width:900px;
+  height:120px;
+}
+
+/* サイトのタイトル */
+div#name {
+  margin-left:30px;
+  font-size:60px;
+  color:#ffffff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+/* サイトの中心部 */
+div#main {
+  margin-top:0px;
+  width:900px;
+  height:600px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:0px;
+  background-color:rgba(200,200,200,1);
+}
+
+	#main a {
+		display: block;
+		float: left;
+		text-decoration: none;
+	}
+	
+	.club {
+		font-size: 40px;
+		width: 450px;
+		height: 70px;
+		color: #ffffff;
+		background-color: rgb(230, 230, 230);
+	}
+	.club:link, .club:visited {
+	}
+	.club:hover {
+		color: rgb(200, 150, 100);
+		opacity: 0.5;
+	}
+	
+	.gaku {
+		font-size: 30px;
+		width: 450px;
+		height: 40px;
+		background-color: #663366;
+		text-align: center;
+		color: #FFFFFF;
+	}
+	.dendai {
+		font-size: 30px;
+		width: 450px;
+		height: 40px;
+		background-color: #336666;
+		text-align: center;
+		color: #FFFFFF;
+	}
+
+/* 区切り線 */
+hr {
+  margin-top:0px;
+  margin-left:auto;
+  margin-right:auto;
+  border-width:3px 0px 0px 0px;
+  border-style:dashed;
+  border-color:gray;
+  height:3px;
+  width:800px;
+}
