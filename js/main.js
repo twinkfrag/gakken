@@ -3,6 +3,7 @@ var li = "elements/0.jpg elements/1.jpg elements/2.jpg elements/3.jpg elements/4
 $(document).ready(function(){
 	var rnd = Math.floor(li.length * Math.random());
 	var headImg = new Image();
+	var i = 0;
 	headImg.src = li[rnd];
 	headImg.onload = function(){
 		var height = 300-headImg.naturalHeight;
@@ -12,10 +13,14 @@ $(document).ready(function(){
 				"background-position-y": height + "px"
 			}, 3000);
 	}
-	
-	var i = 0;
-		$(".club").css("background-image", function(){
-			i++;
-			return "url(" + li[i-1] + ")";
-		});
+  $(".club").css("background-image", function(){
+    i++;
+    return "url(" + li[i-1] + ")";
+  });
+  $(".club").mouseover(function(){
+      $(this).fadeTo("fast", 1)
+  });
+  $(".club").mouseout(function(){
+      $(this).fadeTo("fast", 0.8)
+  });
 });
