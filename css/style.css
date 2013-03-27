@@ -73,14 +73,10 @@ div#main {
 		width: 450px;
 		height: 70px;
 		color: #ffffff;
-		background-color: rgb(230, 230, 230);
 		text-shadow: 1px 1px 1px #000;
+    opacity: 0.8;
 	}
 	.club:link, .club:visited {
-	}
-	.club:hover {
-		color: rgb(255, 255, 255);
-		opacity: 0.64;
 	}
 	.club .stop {
 		font-size: 20px;

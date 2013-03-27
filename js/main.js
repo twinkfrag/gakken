@@ -8,10 +8,15 @@ $(document).ready(function(){
 		.animate({
 			opacity: 1
 		}, 1000);
-	
 	var i = 0;
 		$(".club").css("background-image", function(){
 			i++;
 			return "url(" + li[i-1] + ")";
 		});
+});
+$(".club").mouseover(function(){
+    $(this).fadeTo("fast", 1)
+});
+$(".club").mouseout(function(){
+    $(this).fadeTo("fast", 0.8)
 });
