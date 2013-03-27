@@ -28,6 +28,7 @@ header#bar {
 #buttons {
 	text-align: right;
   float:right;
+  height:30px;
 }
 
 /* ヘッダー部分 */
@@ -45,7 +46,7 @@ header#header {
 /* 隙間埋め */
 div#space {
   width:900px;
-  height:110px;
+  height:80px;
 }
 
 /* サイトのタイトル */
@@ -79,12 +80,9 @@ div#main {
 		color: #ffffff;
 		background-color: rgb(230, 230, 230);
 		text-shadow: 1px 1px 1px #000;
+    opacity:0.8;
 	}
 	.club:link, .club:visited {
-	}
-	.club:hover {
-		color: rgb(255, 255, 255);
-		opacity: 0.64;
 	}
 		.stop {
 			font-size: 20px;
