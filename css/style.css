@@ -25,6 +25,10 @@ header#bar {
   font-family: 'Economica', sans-serif;
 }
 
+#buttons {
+	float: right;
+}
+
 /* ヘッダー部分 */
 header#header {
   margin-left:auto;
